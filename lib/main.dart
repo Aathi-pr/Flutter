@@ -35,7 +35,6 @@ class WallpaperList extends StatelessWidget{
     'Mac_Commander',
     'FireLicked_Mac',
     'BOP_Mac',
-    'Rancho_Twilight',
   ];
 
   final Map<String?, String?> wallpaperInfo = {
@@ -44,7 +43,7 @@ class WallpaperList extends StatelessWidget{
     'Mac_Commander': 'This is a Mac_Commander Wallpaper',
     'FireLicked_Mac': 'This is a FireLicked Wallpaper',
     'BOP_Mac': 'This is a BOP_Mac Wallpaper',
-    'Rancho_Twilight': 'This is a Rancho_Twilight Wallpaper'
+
   };
   @override
   Widget build(BuildContext context){
