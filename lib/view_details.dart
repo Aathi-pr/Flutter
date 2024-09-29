@@ -43,8 +43,18 @@ class ViewDetails extends StatelessWidget {
         child: Column(
           children: <Widget> [
             const Text('Wallpapers', style: TextStyle(fontSize: 30, color: Colors.white),),
+            const Padding(
+              padding:  EdgeInsets.all(8.0),
+              child:  Divider(),
+            ),
+            const SizedBox(height: 50,),
             Text(wallpaperName.toString(), style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.white),),
-            ClipOval(child: Image.asset(getImagePath(), height: 200, width: 200,fit: BoxFit.cover,)),
+
+            const SizedBox(height: 60,),
+            Image.asset(getImagePath(), fit: BoxFit.cover,),
+
+            const SizedBox(height: 20,),
+            Text('${wallpaperDetails.toString()}', style: const TextStyle(color: Colors.white, fontSize: 20, ),)
           ],
         ),
       ),

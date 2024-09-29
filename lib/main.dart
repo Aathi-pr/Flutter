@@ -10,7 +10,7 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: true,
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.black,
         appBar: AppBar(title: const Text('Dog Info'),
